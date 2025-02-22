@@ -15,7 +15,7 @@
 1. **Configure o banco de dados**:
     - No arquivo `DefineCredenciais.php`, altere as credenciais para o seu banco de dados MySQL.
     - Crie um banco de dados chamado `entrevista` (ou altere o nome no arquivo `DefineCredenciais.php` para o nome desejado).
-    - Importe o esquema de banco de dados utilizando o arquivo SQL (caso tenha criado um). Caso contrário, você pode criar uma tabela `usuarios` manualmente com as colunas:
+    - Importe o esquema de banco de dados utilizando o arquivo SQL. Caso contrário, você pode criar uma tabela `usuarios` manualmente com as colunas:
       - `id` (INT, auto-increment)
       - `nome` (VARCHAR)
       - `cpf` (VARCHAR)
